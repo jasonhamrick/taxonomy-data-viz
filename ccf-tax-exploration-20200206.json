@@ -5,12 +5,9 @@
 	"separator": ",",
 	"skip": 0,
 	"meta": [
-		{ "type": "id", "index": 0, "name": "Page URL" },
-		{ "type": "string", "index": 1, "name": "Avg Time on Page" },
-		{ "type": "decimal", "index": 2, "name": "SEO CTR"},
-		{ "type": "integer", "index": 3, "name": "Pageviews" }
+		{ "type": "id", "index": 0, "name": "Page URL" }
 	],
 	"sets": [
-		{ "format": "binary", "start": 4, "end": 65 }
+		{ "format": "binary", "start": 1, "end": 61 }
 	]
 }
