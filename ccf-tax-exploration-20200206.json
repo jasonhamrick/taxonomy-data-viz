@@ -8,6 +8,6 @@
 		{ "type": "id", "index": 0, "name": "Page URL" }
 	],
 	"sets": [
-		{ "format": "binary", "start": 1, "end": 61 }
+		{ "format": "binary", "start": 1, "end": 40 }
 	]
 }
