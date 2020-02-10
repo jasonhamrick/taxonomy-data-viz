@@ -1,13 +1,16 @@
 {
-	"file": "https://github.com/jasonhamrick/taxonomy-data-viz/blob/master/ccf-seo-upset-with-ga-attributes.csv",
+	"file": "https://raw.githubusercontent.com/jasonhamrick/taxonomy-data-viz/master/ccf-seo-upset-with-ga-attributes.csv",
 	"name": "Crohns",
 	"header": 0,
 	"separator": ",",
 	"skip": 0,
 	"meta": [
-		{ "type": "id", "index": 0, "name": "Page URL" }
+		{ "type": "id", "index": 0, "name": "Page URL" },
+		{ "type": "string", "index": 1, "name": "Time on Page" },
+		{ "type": "string", "index": 2, "name": "SEO CTR" },
+		{ "type": "integer", "index": 3, "name": "Pageviews" }
 	],
 	"sets": [
-		{ "format": "binary", "start": 1, "end": 40 }
+		{ "format": "binary", "start": 4, "end": 64 }
 	]
 }
